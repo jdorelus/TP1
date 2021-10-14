@@ -21,7 +21,7 @@ qui définissent l’utilisateur et le groupe sous lesquels tourne Apache. Vous 
 
 Vous pouvez définir le fichier de log utilisé pour stocker les logs d’erreur Apache (directive  ErrorLog), le niveau de verbosité des logs (LogLevel) et différents formats de logs définis par la directive  LogFormat. Pour cette dernière, différents formats sont préconfigurés, leur nom se trouve en second paramètre en fin de ligne. 
 
-# Configurez votre premier site web sous Apache
+# Configurez le site web sous Apache
 
 Apache est capable de gérer plusieurs sites web sur la même machine, c’est ce qu’on appelle des hôtes virtuels ou virtual hosts. Dans la requête que fera le client sur la machine, un entête HTTP précisera si le client veut plutôt consulter toto.com ou tata.org qui sont tous les deux hébergés sur la machine. La configuration de chaque virtual host se fait dans un fichier  *.conf  dans  /etc/apache2/sites-available/  . Créez donc le fichier  /etc/apache2/sites-available/01-www.example.com.conf
 
